@@ -4,7 +4,7 @@
 #
 Name     : arrow
 Version  : 1.1.1
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/94/39/b5bb573821d6784640c227ccbd72fa192f7542fa0f68589fd51757046030/arrow-1.1.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/94/39/b5bb573821d6784640c227ccbd72fa192f7542fa0f68589fd51757046030/arrow-1.1.1.tar.gz
 Summary  : Better dates & times for Python
