@@ -1,5 +1,5 @@
 PKG_NAME := arrow
-URL = https://files.pythonhosted.org/packages/94/39/b5bb573821d6784640c227ccbd72fa192f7542fa0f68589fd51757046030/arrow-1.1.1.tar.gz
+URL = https://files.pythonhosted.org/packages/dc/bd/2565b8533bb8cf66e10a9e68a1d489ad839799b2050f0635039e614e3b1a/arrow-1.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
