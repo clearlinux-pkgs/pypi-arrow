@@ -14,13 +14,13 @@ Requires: pypi-arrow-license = %{version}-%{release}
 Requires: pypi-arrow-python = %{version}-%{release}
 Requires: pypi-arrow-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(python_dateutil)
 BuildRequires : pypi(typing_extensions)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 Provides: arrow
 
 %description
