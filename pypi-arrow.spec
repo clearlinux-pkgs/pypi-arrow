@@ -4,7 +4,7 @@
 #
 Name     : pypi-arrow
 Version  : 1.2.2
-Release  : 16
+Release  : 17
 URL      : https://files.pythonhosted.org/packages/48/28/30a5748af715b0ab9c2b81cf08bd9e261e47a6261e247553afb7f6421b24/arrow-1.2.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/48/28/30a5748af715b0ab9c2b81cf08bd9e261e47a6261e247553afb7f6421b24/arrow-1.2.2.tar.gz
 Summary  : Better dates & times for Python
@@ -16,7 +16,6 @@ Requires: pypi-arrow-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(py)
 BuildRequires : pypi(python_dateutil)
-BuildRequires : pypi(typing_extensions)
 BuildRequires : pypi-pluggy
 BuildRequires : pypi-pytest
 BuildRequires : pypi-tox
@@ -50,7 +49,6 @@ Group: Default
 Requires: python3-core
 Provides: pypi(arrow)
 Requires: pypi(python_dateutil)
-Requires: pypi(typing_extensions)
 
 %description python3
 python3 components for the pypi-arrow package.
@@ -65,7 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1643386275
+export SOURCE_DATE_EPOCH=1649711516
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
