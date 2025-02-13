@@ -7,7 +7,7 @@
 #
 Name     : pypi-arrow
 Version  : 1.3.0
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/2e/00/0f6e8fcdb23ea632c866620cc872729ff43ed91d284c866b515c6342b173/arrow-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2e/00/0f6e8fcdb23ea632c866620cc872729ff43ed91d284c866b515c6342b173/arrow-1.3.0.tar.gz
 Summary  : Better dates & times for Python
